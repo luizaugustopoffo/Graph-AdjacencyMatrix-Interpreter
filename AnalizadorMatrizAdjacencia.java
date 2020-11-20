@@ -1,4 +1,3 @@
-//Luiz Augusto Poffo
 package Exercicio1;
 
 import java.util.LinkedList;
@@ -71,7 +70,6 @@ public class AnalizadorMatrizAdjacencia {
 		boolean simples = true;
 		boolean regular = true;
 		boolean completo = true;
-		boolean bipartido = true;// tentativa
 		int grauVerticeColuna = -1;// inicia com -1 para salvar o primeiro grau encontrado.
 		int auxGrauVerticeColuna = 0;
 		int grauVerticeLinha = 0;
@@ -104,9 +102,6 @@ public class AnalizadorMatrizAdjacencia {
 						simples = false;
 						completo = false;
 						
-						// tentativa bipartido
-						bipartido = false;
-
 						// validaçao regular
 						if (regular) {
 							if (ehDirigido) {

@@ -1,4 +1,3 @@
-//Luiz Augusto Poffo
 package Exercicio1;
 
 public class teste {
